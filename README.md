@@ -21,7 +21,9 @@ AppのURL:
 - ~~NN・LightGBM / ある人が特有の表現を好むか否かを分類する/ 分類機~~
 - ✅SHAP / 特有の表現が選ばれることに対して、説明性の確保 /　可視化・説明性
 - ✅React /WebアプリのUIコンポーネントの構築 / フロントエンド
-- 👷AWS(AWS Lambda + EventBridge + S3)/ 定期的な再学習および各データの保存 /ごく簡単なMLOps
+- ✅各種ファイル /最低限のドリフト検知、再学習のシステム/ MLOpsに必要なコンポーネント
+- 👷PCAやtSNEなどによる可視化
+- 👷AWS(AWS Lambda + EventBridge + S3)/ 定期的な再学習および各データの保存 /ごく簡単なMLOpsのフレームワーク
 - ~~MLFlow・Github Actions・Docker / 継続的学習やドリフト検知 / MLOpsの導入~~
 - 👷　全体的な依存関係の整理、エラーの処理、その他各種起こりそうな問題への対処
 
