@@ -1,4 +1,4 @@
-# Continuous_DialogBot_w_MLOps(WIP)
+# WebApp_Continuous_DialogBot_w_MLOps(WIP)
 
 ## 概要
 このプロジェクトはある人の書いた文章や喋った内容などを学習し、その人にとって心地よい/自然な表現に関する情報を得ることで、コミュニケーションに役立てるウェブアプリです。
