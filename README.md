@@ -22,6 +22,7 @@ AppのURL:
 - ✅SHAP / 特有の表現が選ばれることに対して、説明性の確保 /　可視化・説明性
 - ✅React /WebアプリのUIコンポーネントの構築 / フロントエンド
 - ✅各種ファイル /最低限のドリフト検知、再学習のシステム/ MLOps
+- 👷AWS Transcript/ 音声データをテキストデータに変換し、保存しやすい形に / STT(Speech to Text)
 - 👷PCAやt-SNE / 次元削減による可視化 /可視化
 - 👷AWS(AWS Lambda + EventBridge + S3)/ 定期的な再学習および各データの保存 / MLOpsのフレームワーク
 - ~~MLFlow・Github Actions・Docker / 継続的学習やドリフト検知 / MLOpsの導入~~
