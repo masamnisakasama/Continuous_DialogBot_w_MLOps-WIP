@@ -48,8 +48,9 @@ AppのURL:
 
 フロントエンド(React)
 <img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 36 00" src="https://github.com/user-attachments/assets/64ec65df-8a4b-44fc-92ff-30450500d1a5" />
-<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 35 37" src="https://github.com/user-attachments/assets/ee0d1288-bf04-4125-ad60-f280a7c3fe09" />
-<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 36 22" src="https://github.com/user-attachments/assets/d1a555c0-dcd6-4b13-9ee2-6e7377fd813f" />
+<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 35 37" src="https://github.com/user-attachments/assets/7b5e7afe-66a9-4448-8173-a9258479948c" />
+<img width="1440" height="777" alt="Screenshot 2025-08-11 at 8 43 35" src="https://github.com/user-attachments/assets/c524deeb-599b-48e1-8d1e-99e984d377f2" />
+
 
 ---
 
