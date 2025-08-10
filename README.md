@@ -37,9 +37,22 @@ AppのURL:
 
 
 ## 反省点
-- アイデアドリブンの開発は途中で行き詰まることが多い。まず扱うテーマについてML以外の関連文献をよく調べ、可能かどうか十分に判断してから始めるべき。よくしらない分野を決して軽視せず、まず十分に調べるべき
+- アイデアドリブンの開発は途中で行き詰まることが多い。まず扱うテーマ(今回は音声学やセールスの話) についてML以外の関連文献をよく調べ、可能かどうか十分に判断してから始めるべき。よくしらない分野を決して軽視せず、まず十分に調べるべき
+- 教師なし学習でMLOPsは普通に難しいので、ラベル付きのデータセットがある分野で開発するのが通常。今回の売り上げ予測については成約可否のラベルがないので難しい。
 - 難しい指標を導入して結果的にわかりにくくなることが多い。SHAPを用いるより発話速度、発話の間隔などを可視化する方が直感的で有用になる。
 
+## 今こんな感じ
+
+バックエンド（FastAPI）
+<img width="1440" height="723" alt="Screenshot 2025-08-11 at 8 40 02" src="https://github.com/user-attachments/assets/580dac52-1bf0-44f1-b298-14980c5a0e1f" />
+
+フロントエンド(React)
+<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 36 00" src="https://github.com/user-attachments/assets/64ec65df-8a4b-44fc-92ff-30450500d1a5" />
+<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 35 37" src="https://github.com/user-attachments/assets/ee0d1288-bf04-4125-ad60-f280a7c3fe09" />
+<img width="1440" height="772" alt="Screenshot 2025-08-11 at 8 36 22" src="https://github.com/user-attachments/assets/d1a555c0-dcd6-4b13-9ee2-6e7377fd813f" />
+
 ---
+
+
 質問や疑問点などがあれば気軽にどうぞ！
 
