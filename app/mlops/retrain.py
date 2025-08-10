@@ -1,3 +1,4 @@
+"""
 from fastapi import APIRouter, BackgroundTasks
 from sqlalchemy.orm import Session
 from app import crud, database, features
@@ -29,7 +30,7 @@ def retrain_model():
         # 将来的にモデル再学習処理をここに追加可能
 
     except Exception as e:
-        logger.error(f"❌ 再学習中にエラーが発生しました: {e}")
+        logger.error(f" 再学習中にエラーが発生しました: {e}")
     finally:
         db.close()
         logger.info("🔚 [retrain_model] 再学習処理が終了しました")
@@ -37,9 +38,34 @@ def retrain_model():
 # APIエンドポイント
 @router.post("/retrain")
 async def trigger_retrain(background_tasks: BackgroundTasks):
-    """
+    
     会話データの再学習（再可視化）を非同期で実行するエンドポイント。
-    """
+    
     background_tasks.add_task(retrain_model)
-    logger.info("📩 再学習タスクをバックグラウンドでキューに追加しました")
+    logger.info("再学習タスクをバックグラウンドでキューに追加しました")
     return {"message": "再学習処理をバックグラウンドで開始しました"}
+"""
+
+# app/mlops/retrain_api.py
+from fastapi import APIRouter
+from typing import Dict, Any
+import traceback
+
+router = APIRouter()
+
+@router.post("/mlops/retrain")
+def retrain_endpoint() -> Dict[str, Any]:
+    """
+    再学習のAPIトリガー。内部で app.mlops.retrain.retrain_model() を呼びます。
+    """
+    try:
+        # 学習ロジック本体（あなたの既存ファイル）を遅延importして循環を回避
+        from app.mlops.retrain import retrain_model
+    except Exception as e:
+        return {"status": "error", "detail": "retrain_model が見つかりません。", "import_error": str(e)}
+
+    try:
+        result = retrain_model()  # 必要なら引数を追加
+        return {"status": "ok", "result": result if result is not None else "retrain finished"}
+    except Exception as e:
+        return {"status": "error", "detail": str(e), "traceback": traceback.format_exc()}

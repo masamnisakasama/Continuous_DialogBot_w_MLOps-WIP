@@ -1,6 +1,4 @@
-# ----------------------
-# Python
-<<<<<<< HEAD
+
 *.py[cod]
 *.env
 .env
@@ -36,7 +34,6 @@ test.db
 # Logs
 *.log
 
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 *.so
 
@@ -49,7 +46,7 @@ Pipfile.lock
 .python-version
 
 
-<<<<<<< HEAD
+
 # DB　for Test
 test.db
 *.sqlite3
@@ -120,14 +117,4 @@ package-lock.json
 *.flac
 uploads/
 tmp/
->>>>>>> 7336dd7 (Third Commit w voice dealing pipeline n other indicators)
-# --- ML model caches / checkpoints ---
-local_model_cache/
-*.safetensors
-*.bin
-*.pt
-*.ckpt
-*.onnx
-*.h5
-# locks and temp
-*.lock
+
