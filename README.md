@@ -45,7 +45,7 @@ AppのURL:
 <img width="1440" height="723" alt="Screenshot 2025-08-11 at 8 40 02" src="https://github.com/user-attachments/assets/580dac52-1bf0-44f1-b298-14980c5a0e1f" />
 
 フロントエンド(React)
-<img width="1440" height="788" alt="Screenshot 2025-08-11 at 16 49 44" src="https://github.com/user-attachments/assets/31d16742-0012-45e9-9e44-32c51219a60f" /><img width="1418" height="797" alt="Screenshot 2025-08-11 at 16 47 58" src="https://github.com/user-attachments/assets/b0ba689c-133a-4539-aa28-b2f79c631a0a" />
+<img width="1418" height="797" alt="Screenshot 2025-08-11 at 16 47 58" src="https://github.com/user-attachments/assets/b0ba689c-133a-4539-aa28-b2f79c631a0a" />
 <img width="1440" height="788" alt="Screenshot 2025-08-11 at 16 49 44" src="https://github.com/user-attachments/assets/5eb08aca-86b0-45f7-a77b-ca8993ca7ec5" />
 <img width="1440" height="336" alt="Screenshot 2025-08-11 at 16 53 20" src="https://github.com/user-attachments/assets/90953991-ed15-4e2f-b99e-d347f2584d99" />
 <img width="1440" height="785" alt="Screenshot 2025-08-11 at 16 54 43" src="https://github.com/user-attachments/assets/9377083b-91f1-4a83-b9a2-00e26bcc77ca" />
