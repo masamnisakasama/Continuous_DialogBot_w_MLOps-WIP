@@ -52,6 +52,19 @@ AppのURL:
 <img width="1440" height="785" alt="Screenshot 2025-08-11 at 16 54 43" src="https://github.com/user-attachments/assets/9377083b-91f1-4a83-b9a2-00e26bcc77ca" />
 
 
+## スコアリングの例
+
+試行錯誤を重ね、良いプレゼンと悪いプレゼンの定量化を行いました。
+低いスコアの例　
+<img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/6a1cad10-bb43-4531-b109-63a4b4af6501" />
+<img width="1436" height="569" alt="Screenshot 2025-08-13 at 14 36 42" src="https://github.com/user-attachments/assets/1ecd855c-0ca8-4c9d-81f7-be34a3fb0dbb" />
+<img width="1436" height="507" alt="Screenshot 2025-08-13 at 14 37 00" src="https://github.com/user-attachments/assets/8d077fd1-ddbc-48ba-adc5-0dc883bd6d19" />
+
+高いスコアの例　
+<img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/7dd5b3d1-5a2d-4168-9e2f-33b6f0023613" />
+<img width="1440" height="656" alt="Screenshot 2025-08-13 at 14 53 19" src="https://github.com/user-attachments/assets/947a339c-2546-432c-acbd-d410e785565b" />
+
+
 
 
 ---
