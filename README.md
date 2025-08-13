@@ -62,7 +62,7 @@ AppのURL:
 <img width="1436" height="507" alt="Screenshot 2025-08-13 at 14 37 00" src="https://github.com/user-attachments/assets/8d077fd1-ddbc-48ba-adc5-0dc883bd6d19" />
 
 高いスコアの例　
-<img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/7dd5b3d1-5a2d-4168-9e2f-33b6f0023613" />
+<img width="1440" height="214" alt="Screenshot 2025-08-13 at 14 52 32" src="https://github.com/user-attachments/assets/9add4f3f-154a-4d11-9bab-0b6423bedef9" />
 <img width="1440" height="656" alt="Screenshot 2025-08-13 at 14 53 19" src="https://github.com/user-attachments/assets/947a339c-2546-432c-acbd-d410e785565b" />
 
 
