@@ -54,9 +54,7 @@ AppのURL:
 
 ## スコアリングの例
 
-試行錯誤を重ね、良いプレゼンと悪いプレゼンの定量化を行いました。
-想定ケースは「RAGによる社内ナレッジの活用」です。
-（他意はなく、CHAT GPT-5に会社でのRAGの活用例を求めたところ、このような出力がなされました。）
+試行錯誤を重ね、良いプレゼンと悪いプレゼンの定量化を行いました。<br>想定ケースは「RAGによる社内ナレッジの活用」です。<br>（他意はなく、CHAT GPT-5に会社でのRAGの活用例を求めたところ、このような出力がなされました。）<br>どのような入力をしたのかに関しては、「ずんだもんITプレゼン例の音声ファイルやテキストファイル」をご覧ください。
 
 低いスコアの例　
 <img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/6a1cad10-bb43-4531-b109-63a4b4af6501" />
@@ -67,7 +65,6 @@ AppのURL:
 <img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/7dd5b3d1-5a2d-4168-9e2f-33b6f0023613" />
 <img width="1440" height="656" alt="Screenshot 2025-08-13 at 14 53 19" src="https://github.com/user-attachments/assets/947a339c-2546-432c-acbd-d410e785565b" />
 
-どのような入力をしたのかに関しては、ずんだもんITプレゼン例の音声ファイルやテキストファイルをご覧ください。
 
 
 ---
