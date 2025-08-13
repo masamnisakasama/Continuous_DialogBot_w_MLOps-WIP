@@ -64,7 +64,7 @@ AppのURL:
 <img width="1406" height="234" alt="Screenshot 2025-08-13 at 14 35 46" src="https://github.com/user-attachments/assets/7dd5b3d1-5a2d-4168-9e2f-33b6f0023613" />
 <img width="1440" height="656" alt="Screenshot 2025-08-13 at 14 53 19" src="https://github.com/user-attachments/assets/947a339c-2546-432c-acbd-d410e785565b" />
 
-
+どのような入力をしたのかに関しては、ずんだもんITプレゼン例の音声ファイルやテキストファイルをご覧ください。
 
 
 ---
