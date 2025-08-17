@@ -33,9 +33,8 @@ MLOps有りでのWeb AppのURL：
 
 Croud Runについては上限メモリ16 GiB, HTTPリクエスト上限1時間となっています。<br>
 S3については、一時期分析結果を表示していたものの、セキュリティーの観点からフロントエンド側から見れないようにしました。将来のMLOpsへの拡張のために集計自体はされているものの、デフォルトで暗号化が効いてますし、中身ももちろん見ませんのでご安心ください。
+<フロントエンドに結果を表示していた頃の画像>
 <img width="1425" height="401" alt="Screenshot 2025-08-15 at 14 36 43" src="https://github.com/user-attachments/assets/d5e13411-e3cf-4a8b-8a35-03e038e59769" />
-<img width="1433" height="387" alt="Screenshot 2025-08-17 at 20 55 21" src="https://github.com/user-attachments/assets/0efa853d-ebc5-4fde-ae3e-0c97e5fae358" />
-
 
 
 ## 反省点
