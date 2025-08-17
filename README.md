@@ -10,8 +10,9 @@ MLOps無しで一旦WebAppにしてみます。
 - ~~電話でのサービスの売り込みにおいて、成約件数が多い社員の接客の傾向を分析し、マニュアルに組み込むなど集合知に落とし込むことで売上や通話品質の向上を目指す。~~(実際の録音記録と契約可否の結果に関するデータがないとモデルを構築するのは極めて難しい。もちろん持ち合わせていないので、断念)
 - ベテラン社員のプレゼンテーション等を解析し、スキルセットを明文化することで促販や他者とのプレゼンなどに役立てる。（CHAT GPT-5を適宜用いて、スコアリングの詳細を詰めていくことで定量化できる。）
 
-##　アプリのURLおよび注意事項
-MLOps無しでのWeb AppのURL:　https://snazzy-profiterole-cba9bf.netlify.app 
+## アプリのURLおよび注意事項
+MLOps無しでのWeb AppのURL:　https://snazzy-profiterole-cba9bf.netlify.app <br>
+MLOps有りでのWeb AppのURL：
 <br><br>＜注意＞
 音声解析（STT（Speech To Text））が遅いです。Whisper API（音声をテキストにするOpen AIのAPI）がデフォルトで遅いのが原因なので、Whisper APIを使う限り技術でどうにかできる類の問題ではなさそうです。大体5分の音声で10分前後の処理時間をご用意ください。処理している間は適当に他の作業をしていても勝手に処理が進みます。<br>
 また、短い音声で簡単に高得点が取れないよう、音声が短いとペナルティーが入るようになっています。１２００文字程度話していただくと減点はほぼなくなります。<br>
@@ -23,12 +24,12 @@ MLOps無しでのWeb AppのURL:　https://snazzy-profiterole-cba9bf.netlify.app
 - Fast API / 会話ログを収取し、トークナイズ、分類する**バックエンド**
 - React / WebアプリのUIコンポーネントの構築をする**フロントエンド**
 - Whisper API(Open AI API)/ STT(Speech to Text)により、音声をテキストに変換
-- ドリフト以外の指標の導入1 /発話速度、文節の長さ
-- ドリフト以外の指標の導入2/論理構造性(構成の明瞭さ、一貫性、まとまり、情報密度、次なるアクションの喚起度(CTA)）
+- スピーチの指標の導入1 /発話速度、文節の長さ
+- スピーチの指標の導入2/ 論理構造性(構成の明瞭さ、一貫性、まとまり、情報密度、次なるアクションの喚起度(CTA)）
 - AWS S3 / 各データの保存(論理スコア、解釈結果のtxtおよびjsonを保存)
-- Croud Run + Netlify /バックエンドのサーバレスデプロイ + フロントエンド用のサービス<br>
+- Croud Run + Netlify /バックエンドのサーバレスデプロイサービス + フロントエンドデプロイ用のサービス<br>
 
-Croud Runについてはメモリ16 GiB, HTTPリクエスト上限時間1時間となっています。<br>
+Croud Runについては上限メモリ16 GiB, HTTPリクエスト上限1時間となっています。<br>
 S3については、一時期分析結果を表示していたものの、セキュリティーの観点からフロントエンド側から見れないようにしました。将来のMLOpsへの拡張のために集計自体はされているものの、デフォルトで暗号化が効いてますし、中身ももちろん見ませんのでご安心ください。
 <img width="1425" height="401" alt="Screenshot 2025-08-15 at 14 36 43" src="https://github.com/user-attachments/assets/d5e13411-e3cf-4a8b-8a35-03e038e59769" />
 <img width="1433" height="387" alt="Screenshot 2025-08-17 at 20 55 21" src="https://github.com/user-attachments/assets/0efa853d-ebc5-4fde-ae3e-0c97e5fae358" />
