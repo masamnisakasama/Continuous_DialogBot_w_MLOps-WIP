@@ -18,7 +18,8 @@ MLOps有りでのWeb AppのURL：
 また、短い音声で簡単に高得点が取れないよう、音声が短いとペナルティーが入るようになっています。１２００文字程度話していただくと減点はほぼなくなります。<br>
 
 アプリのイメージ画像<br>
-<img width="1433" height="725" alt="Screenshot 2025-08-17 at 20 29 32" src="https://github.com/user-attachments/assets/f204b8e7-e03d-4495-836a-4c23d862721b" />
+<img width="1433" height="725" alt="Screenshot 2025-08-17 at 20 29 32" src="https://github.com/user-attachments/assets/211fe78f-a86a-4481-96c3-1dc9f60b0931" />
+
 
 ## MLOPsなしWebアプリの技術スタック
 - Fast API / 会話ログを収取し、トークナイズ、分類する**バックエンド**
