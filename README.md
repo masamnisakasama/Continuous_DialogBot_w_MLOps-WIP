@@ -31,7 +31,8 @@ MLOps有りでのWeb AppのURL：
 🧠 スコアリング : 構造性・一貫性・冗長性（密度）・CTA などを LLM で評価<br>
 ⏱️ 音声指標 : 発話速度、文節の長さなどの簡易指標<br>
 🖥️ Web UI : React 製のシンプルな解析フロントエンド<br>
-☁️ 保存 : 将来のMLOps再学習に向けた S3 等への保存に対応予定（WIP）<br><br>
+🗣️プロンプト :企業名や特有サービスなどの固有名詞を設定することで音声認識の精度を上げられます　<br>
+☁️ 保存 : 将来のMLOps再学習に向けた S3 等への保存に対応（WIP）<br><br>
 
 
 ## 技術スタック
@@ -40,9 +41,9 @@ MLOps有りでのWeb AppのURL：
 - Whisper API(Open AI API) / STT(Speech to Text)により、音声をテキストに変換
 - Open AI API　/ スピーチの内容からムードやスタイル、興味を算出する
 - AWS S3 / 各データの保存(論理スコア、話す速度などのtxtおよびjsonを保存)
-- Croud Run + Netlify /　バックエンドのサーバレスデプロイサービス + フロントエンドデプロイ用のサービス
+- Cloud Run + Netlify /　バックエンドのサーバレスデプロイサービス + フロントエンドデプロイ用のサービス
 - (予定) MLOps: AWS Lambda + EventBridge + S3 / ドリフト検知・再学習などMLOps<br><br>
-Croud Runについては上限メモリ16 GiB, HTTPリクエスト上限1時間となっています。<br>
+Cloud Runについては上限メモリ16 GiB, HTTPリクエスト上限1時間となっています。<br>
 S3については、一時期分析結果を表示していたものの、セキュリティーの観点からフロントエンド側から見れないようにしました。<br>将来のMLOpsへの拡張のために集計自体はされているものの、デフォルトで暗号化が効いてますし、中身ももちろん見ませんのでご安心ください。<br>
 <フロントエンドに結果を表示していた頃の画像><br>
 <img width="1425" height="401" alt="Screenshot 2025-08-15 at 14 36 43" src="https://github.com/user-attachments/assets/d5e13411-e3cf-4a8b-8a35-03e038e59769" />
