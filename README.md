@@ -35,6 +35,10 @@ MLOps有りでのWeb AppのURL：
 🗣️プロンプト :企業名や特有サービスなどの固有名詞を設定することで音声認識の精度を上げられます　<br>
 ☁️ 保存 : 将来のMLOps再学習に向けた S3 等への保存に対応（WIP）<br><br>
 
+## アーキテクチャ図
+私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
+
+<img width="1281" height="725" alt="Dialogbot" src="https://github.com/user-attachments/assets/6e859b15-ea5a-43f9-9776-62a63d5f04fe" />
 
 ## 技術スタック
 - Fast API / 会話ログを収取し、各種分析を行う**バックエンド**
