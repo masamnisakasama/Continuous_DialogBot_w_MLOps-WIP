@@ -26,6 +26,12 @@ MLOps有りでのWeb AppのURL：
 - 何を入れるか迷ったら、私のレポジトリから「ずんだもんITプレゼン例」の**mp3**の音声ファイルをとってきて分析するといいと思います。<br><br>
 
 
+## アーキテクチャ図
+私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
+<img width="3795" height="2208" alt="Dialogbot_revised" src="https://github.com/user-attachments/assets/23752ab8-48d4-48d9-8e7e-3ca4119a4930" />
+
+
+
 
 ## 主な機能
 🎙️ 音声からテキストへ (STT) : Whisper API を利用した文字起こし<br>
@@ -34,11 +40,6 @@ MLOps有りでのWeb AppのURL：
 🖥️ Web UI : React 製のシンプルな解析フロントエンド<br>
 🗣️プロンプト :企業名や特有サービスなどの固有名詞を設定することで音声認識の精度を上げられます　<br>
 ☁️ 保存 : 将来のMLOps再学習に向けた S3 等への保存に対応（WIP）<br><br>
-
-## アーキテクチャ図
-私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
-
-<img width="1281" height="725" alt="Dialogbot" src="https://github.com/user-attachments/assets/6e859b15-ea5a-43f9-9776-62a63d5f04fe" />
 
 ## 技術スタック
 - Fast API / 会話ログを収取し、各種分析を行う**バックエンド**
