@@ -28,8 +28,7 @@ MLOps有りでのWeb AppのURL：
 
 ## アーキテクチャ図
 私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
-<img width="3795" height="2208" alt="Dialogbot_revised" src="https://github.com/user-attachments/assets/23752ab8-48d4-48d9-8e7e-3ca4119a4930" />
-
+<img width="5060" height="3020" alt="Dialogbot-2" src="https://github.com/user-attachments/assets/5d75c87b-df0c-45c7-832d-db3f12c5938e" />
 
 
 
