@@ -15,13 +15,18 @@
 
 
 ## アプリのURLおよび注意事項
-MLOps無しでのWeb AppのURL:　https://snazzy-profiterole-cba9bf.netlify.app <br>
-MLOps有りでのWeb AppのURL：
+MLOps無しでのWeb AppのURL(遅い): https://snazzy-profiterole-cba9bf.netlify.app <br>
+MLOps無しでのWeb AppのURL（速いかつより正確): https://roaring-pavlova-76f278.netlify.app<br><br>
+MLOps有りでのWeb AppのURL：<br><br>
 
+＜改善点＞<br>
+- 速いバージョンではCPUの代わりにGPUを用いております。
+- 速いバージョンではPostgreSQL in CloudSQLを用いています
+- 速いバージョンではWhisperのモデルにlarge-v3-turbo(より正確)を用いています
+- 速いバージョンではヘルスチェック機能があります。ネット環境が悪いとランプが赤色に変わります。
 
 <br><br>＜注意＞<br>
 
-- **音声解析（STT（Speech To Text））が遅い**です。2024年8月にCloud runでもGPU使えるようになったらしいです。今はGPU非対応の東京リージョンでデプロイしているので、色々調整して別リージョンで今一度デプロイしようと思います。現在は**大体5分の音声で10分前後の処理時間**をご用意ください。<br>
 - 音声の解析中は別のことをしていても問題なく動いていますので、していただいて構いません。
 - ファイルサイズはWhisper APIの処理の関係上24 MBまでです。
 - また、短い音声で簡単に高得点が取れないよう、ペナルティーが入るようになっています。１０００文字程度話していただくと減点はほぼなくなります。<br>
