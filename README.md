@@ -10,7 +10,7 @@
 ## 想定ユースケースおよびアプリのイメージ画像
 - ベテラン社員のプレゼンテーション等を解析し、スキルセットを明文化することで促販や他者へのプレゼンなどに役立てる。（CHAT GPT-5を適宜用いて、スコアリングの詳細を詰めていくことでスピーチ能力を定量化しています。）
 <br>
-<img width="6325" height="3825" alt="Dialogbot-revised drawio-3 drawio" src="https://github.com/user-attachments/assets/614d1e60-8f60-43ae-a5ea-d65e77f3ba70" />
+
 <br><br>
 
 
@@ -37,8 +37,7 @@ MLOps有りでのWeb AppのURL：<br><br>
 
 ## アーキテクチャ図
 私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
-<img width="5044" height="3380" alt="Dialogbot-revised drawio-2-2" src="https://github.com/user-attachments/assets/b8359454-5cc0-4f00-afc9-9953538d9191" />
-
+<img width="6325" height="3825" alt="Dialogbot-revised drawio-3 drawio" src="https://github.com/user-attachments/assets/614d1e60-8f60-43ae-a5ea-d65e77f3ba70" />
 
 
 
