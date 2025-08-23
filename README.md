@@ -15,7 +15,7 @@
 
 
 ## アプリのURLおよび注意事項
-MLOps無しでのWeb AppのURL(遅い): https://snazzy-profiterole-cba9bf.netlify.app <br>
+MLOps無しでのWeb AppのURL(遅い、一応開けるが非推奨): https://snazzy-profiterole-cba9bf.netlify.app <br>
 MLOps無しでのWeb AppのURL（速いかつより正確): https://roaring-pavlova-76f278.netlify.app<br><br>
 MLOps有りでのWeb AppのURL：<br><br>
 
@@ -30,7 +30,6 @@ MLOps有りでのWeb AppのURL：<br><br>
 - 音声の解析中は別のことをしていても問題なく動いていますので、していただいて構いません。
 - ファイルサイズはWhisper APIの処理の関係上24 MBまでです。
 - また、短い音声で簡単に高得点が取れないよう、ペナルティーが入るようになっています。１０００文字程度話していただくと減点はほぼなくなります。<br>
-- 「あなたの傾向（直近7日）」は皆さんが音声をアップロードするたびに更新されます。初めはOpen AI APIを用いた解析ロジックを用いていましたが、かなり重くなりました。そのため、現在はヒューリスティックでごく簡潔な評価方法をとっております。ご了承ください。<br>
 - 何を入れるか迷ったら、私のレポジトリから「ずんだもんITプレゼン例」の**mp3**の音声ファイルをとってきて分析するといいと思います。<br><br>
 
 
