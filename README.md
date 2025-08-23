@@ -37,8 +37,8 @@ MLOps有りでのWeb AppのURL：<br><br>
 
 ## アーキテクチャ図
 私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
-NetlifyもCloud Runもサーバレスデプロイサービスです。<br>
-<img width="6325" height="3825" alt="Dialogbot-revised2 drawio" src="https://github.com/user-attachments/assets/77cb913f-0ba3-4893-9607-81b6a3fabeea" />
+<img width="5044" height="3380" alt="Dialogbot-revised drawio-2-2" src="https://github.com/user-attachments/assets/b8359454-5cc0-4f00-afc9-9953538d9191" />
+
 
 
 
