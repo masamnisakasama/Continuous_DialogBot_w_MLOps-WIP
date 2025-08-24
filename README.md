@@ -20,7 +20,7 @@ MLOps無しでのWeb AppのURL（速いかつより正確): https://roaring-pavl
 MLOps有りでのWeb AppのURL：<br><br>
 
 ＜改善点＞<br>
-- 速いバージョンではCPUの代わりにGPUを用いております。
+- 速いバージョンではCPUの代わりにGPU(torch 2.5.1+cu121)を用いております。
 - 速いバージョンではPostgreSQL in CloudSQLを用いています。
 - 速いバージョンではWhisperのモデルにlarge-v3-turbo(より正確)を用いています。
 - 速いバージョンではヘルスチェック機能があります。ネット環境が悪いとランプが赤色に変わります。
