@@ -88,7 +88,7 @@ S3については、一時期分析結果を表示していたものの、セキ
 <br>
 
 ## レポについて
-GPUを用いた版のレポは、バックエンドが「dialogbot-api_w_GPU」に、フロントエンドが「dialogbot_frontend_for_deployment」に入っています。
+GPUを用いた版のレポは、バックエンドが「dialogbot-api_w_GPU」に、フロントエンドが「dialogbot-frontend_w_GPU 」に入っています。
 
 ## ライセンスについて
 このプロジェクトは MIT License の下で公開されています。
