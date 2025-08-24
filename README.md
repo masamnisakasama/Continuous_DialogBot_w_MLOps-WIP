@@ -15,14 +15,13 @@
 
 
 ## アプリのURLおよび注意事項
-MLOps無しでのWeb AppのURL(遅い、一応開けるが非推奨): https://snazzy-profiterole-cba9bf.netlify.app <br>
 MLOps無しでのWeb AppのURL（速いかつより正確): https://roaring-pavlova-76f278.netlify.app<br><br>
 MLOps有りでのWeb AppのURL：<br><br>
 
 ＜改善点＞<br>
 - 速いバージョンではCPUの代わりにGPU(torch 2.5.1+cu121)を用いております。
 - 速いバージョンではPostgreSQL in CloudSQLを用いています。
-- 速いバージョンではWhisperのモデルにlarge-v3-turbo(より正確)を用いています。
+- 速いバージョンではWhisperのモデルにturbo(以前のmediumより正確)を用いています。
 - 速いバージョンではヘルスチェック機能があります。ネット環境が悪いとランプが赤色に変わります。
 
 <br><br>＜注意＞<br>
