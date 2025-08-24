@@ -19,7 +19,7 @@ MLOps無しでのWeb AppのURL（9:00–21:00 JSTで10倍以上速いかつ正�
 MLOps有りでのWeb AppのURL：<br><br>
 
 ＜改善点＞<br>
-- 速いバージョンではCPUの代わりにGPU(torch 2.5.1+cu121)を用いております。
+- 速いバージョンではCPUの代わりにGPU(Pytorch 2.5.1 + CUDA 12.1 + NVIDIA L4)を用いております。
 - 速いバージョンではPostgreSQL in CloudSQLを用いています。
 - 速いバージョンではWhisperのモデルにturbo(以前のmediumより正確)を用いています。
 - 速いバージョンではヘルスチェック機能があります。ネット環境が悪いとランプが赤色に変わります。
