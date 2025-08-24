@@ -15,7 +15,7 @@
 
 
 ## アプリのURLおよび注意事項
-MLOps無しでのWeb AppのURL（速いかつより正確): https://roaring-pavlova-76f278.netlify.app<br><br>
+MLOps無しでのWeb AppのURL（9:00–21:00 JSTで５倍以上速いかつ正確): https://roaring-pavlova-76f278.netlify.app<br><br>
 MLOps有りでのWeb AppのURL：<br><br>
 
 ＜改善点＞<br>
