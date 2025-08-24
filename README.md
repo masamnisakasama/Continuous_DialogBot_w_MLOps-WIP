@@ -34,7 +34,8 @@ MLOps有りでのWeb AppのURL：<br><br>
 
 ## アーキテクチャ図
 私自身も混乱し始めたので一旦アーキテクチャ図を作りました。<br>
-<img width="6325" height="3825" alt="Dialogbot-revised drawio-3 drawio" src="https://github.com/user-attachments/assets/614d1e60-8f60-43ae-a5ea-d65e77f3ba70" />
+<img width="6310" height="4225" alt="Fialogbot_revised_GPU drawio" src="https://github.com/user-attachments/assets/085eef57-318b-4228-a4e3-3d0909fc4a23" />
+
 
 
 
