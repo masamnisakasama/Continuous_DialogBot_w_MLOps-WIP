@@ -53,9 +53,8 @@ MLOps有りでのWeb AppのURL：<br><br>
 - React / WebアプリのUIコンポーネントの構築をする**フロントエンド**
 - Whisper API(Open AI API) / STT(Speech to Text)により、音声をテキストに変換
 - Open AI API　/ スピーチの内容からムードやスタイル、興味を算出する
-- AWS S3 / 各データの保存(論理スコア、話す速度などのtxtおよびjsonを保存)
 - Cloud Run + Netlify /　バックエンドのサーバレスデプロイサービス + フロントエンドデプロイ用のサービス
-- (予定) MLOps: AWS Lambda + EventBridge + S3 / ドリフト検知・再学習などMLOps<br><br>
+- (予定)Pub/Sub、BigQuery、GCS / ドリフト検知・再学習などMLOps<br><br>
 Cloud Runについては上限メモリ16 GiB, HTTPリクエスト上限1時間となっています。<br>
 S3については、一時期分析結果を表示していたものの、セキュリティーの観点からフロントエンド側から見れないようにしました。<br>将来のMLOpsへの拡張のために集計自体はされているものの、デフォルトで暗号化が効いてますし、中身ももちろん見ませんのでご安心ください。<br>
 <フロントエンドに結果を表示していた頃の画像><br>
